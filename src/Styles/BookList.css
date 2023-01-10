@@ -1,0 +1,30 @@
+.booklist{
+    padding:0px 120px;
+    background:#bae8e8;
+}
+.book-coverpage{
+    background-color: aliceblue;
+    margin:10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.book-data img{
+    width:200px;
+    height: 200px;
+    padding: 10px 20px;
+}
+.book-info,h4,h6,p,button{
+    padding: 10px 20px;
+
+}
+button{
+    margin-left:20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.book-info :nth-last-child(2){
+    background-color: blue;
+}

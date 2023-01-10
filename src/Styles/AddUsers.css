@@ -1,0 +1,11 @@
+.adduser{
+    width:450px;
+    height: 700px;
+    background-color: orangered;
+    margin-left:450px ;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+form input{
+    margin: 10px;
+}

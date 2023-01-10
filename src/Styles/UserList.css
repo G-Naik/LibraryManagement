@@ -1,0 +1,13 @@
+.user-list{
+    padding:10px 65px;
+}
+.user-coverpage h3{
+    padding:10px 20px;
+}
+.user-coverpage{
+    display: inline-flex;
+    width: 400px;height: 200px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}

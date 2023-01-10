@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.admin-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 65px;
+    background-color:#e7eaf6 ;
+}
+.admin-links a{
+    padding:10px 20px;
+    text-decoration: none;
+    color:black;
+    border-radius: 4px;
+}
+.admin-links a:hover{
+    background-color:#fafafa ;
+}

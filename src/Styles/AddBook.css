@@ -1,0 +1,25 @@
+.addBooks{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+.form-input{
+    width: 500px;
+    height: 800px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 
+}
+form input{
+    width:400px;
+}
+form button{
+    margin-left:70px
+}

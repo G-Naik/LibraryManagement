@@ -1,0 +1,45 @@
+.user-admin-login {
+    display: flex;
+}
+.user-admin-login img{
+    height: 100vh;
+}
+.form{
+    width:400px;
+    height:450px;
+    background-color: #e3f6f5e3;
+    border-radius:20px ;
+    margin-top:140px;
+    margin-left: 100px;
+    text-align: center;
+}
+.form h1{
+    padding: 20px;
+}
+form input{
+    width:350px;
+    height:50px ;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+form input:focus{
+    outline: none;
+}
+form p{
+    text-align: left;
+    padding-left: 20px;
+    margin:10px;
+    font-size: 20px;
+}
+form button{
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    margin:40px 0px;
+    background-color: rgba(0, 0, 255, 0.647);
+    font-size: 20px;
+    color:white;
+}
