@@ -29,9 +29,10 @@ const AddUser = () => {
         navigate('/admin/user-list')
     }
     return ( 
-        <div className="adduser">
+        <div className="add-user">
+            <div className="add-user-form">
             <h1>Add Users</h1>
-            <form action="" onSubmit={handleSubmit}>
+            <form action="" onSubmit={handleSubmit} className="add-user-form-input">
                 <p>Name</p>
                 <input type="text" value={name} placeholder="Enter Your Name"  onChange={(e) => setUserName(e.target.value)}/>
                 <p>Email</p>
@@ -42,6 +43,7 @@ const AddUser = () => {
                 <input type="tel" value={phonenumber} maxLength={10} placeholder="Enter Your Number"   onChange={(e) => setNumber(e.target.value)}/>
                 <button>Add User</button>
             </form>
+            </div>
         </div>
      );
 }

@@ -1,25 +1,46 @@
-.addBooks{
+.admin-addBooks{
     display: flex;
-    height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    background-color: aquamarine;
+    justify-content: center;
+    padding:10px;
 }
-.form-input{
-    width: 500px;
-    height: 800px;
+.addbook-form-input{
+    width:700px;
     background-color: aliceblue;
+    padding:0px 20px;
     border-radius: 10px;
 }
-form div{
+.admin-forms{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:10px 
+    flex-direction: column;
 }
-form input{
-    width:400px;
+
+.addbook-form-input h1{
+    text-align: center;
 }
-form button{
-    margin-left:70px
+.addbook-form-input input{
+    width:650px;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.addbook-form-input p{
+    padding: 0px 10px;
+    margin:10px 0px;
+}
+.addbook-form-input textarea{
+    width:650px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.addbook-form-input button{
+    width: 650px;
+    height: 40px;
+    border:none;
+    background-color: blue;
+    font-size: 20px;
+    color:white;
+    border-radius: 10px;
+    margin:20px 0px;
 }

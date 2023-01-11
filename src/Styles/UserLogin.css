@@ -1,48 +1,53 @@
-.admin-login{
+.user-admin-login{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: azure;
-   background-image: url("/public/Images/admin-login-logo.png");
+   background-image: url("/public/Images/user-login-logo.png");
     background-blend-mode:normal;
-    background-position: 10%;
+    background-position: 89%;
     background-repeat: no-repeat;
     background-size: 400px;
     background-size: contain;
+   
+   
 }
-.admin-form{
-    background-color: rgba(0, 0, 0, 0.295);
-    width:600px;
-    height:300px;
-    border-radius: 10px;
-    color:white;
+.user-form{
+       background-color: rgba(0, 0, 0, 0.295);
+        width:600px;
+        height:350px;
+        border-radius: 10px;
+        color:white;
 }
-.admin-form h1{
+.user-form-input{
+    padding: 0px 10px;
+}
+.user-form h1{
     text-align: center;
     padding-top: 10px;
 }
-.admin-form p{
-    margin:0px 10px;
-}
-.admin-form input{
+.user-form input{
     width:550px;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    border:none;
     padding:0px 10px;
     margin: 0px 20px;
 }
-.admin-form input:focus{
+.user-form-input p{
+    margin: 0px 10px;
+}
+.user-form input:focus{
     outline: none;
 }
-.admin-form button{
+.user-form-input button{
     width: 550px;
-    margin: 20px 20px;
+    margin: 40px 20px;
     height: 40px;
     border-radius: 10px;
     border: none;
     font-size: 18px;
     color:white;
-    background-color: blue;
+    background-color:blue ;
 }

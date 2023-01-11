@@ -33,19 +33,19 @@ const AdminLogin = () =>{
     }
 
     return(
-        <div className="user-admin-login">
-                <img src="./Images/coverPage.png" alt="" />
-            <div className="form">
+        <div className="admin-login">
+                
+            <div className="admin-form">
                 <h1>Admin Login</h1>
 
-                <div className="form-input">
+                <div className="admin-form-input">
 
                     <form onSubmit={Login}>
-                        <div className="email">
+                        <div className="admin-email">
                             <p>Email</p>
                              <input type="email" placeholder="Enter Your Email" value={email} onChange={(e) => updateEmail(e.target.value)} required/>
                         </div>
-                        <div className="password">
+                        <div className="admin-password">
                             <p>Password</p>
                              <input type="password" placeholder="Enter your Password" value={password} onChange={(e) => updatePassword(e.target.value)} required/>
                         </div>

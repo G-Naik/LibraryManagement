@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import '../Styles/AdminLogin.css'
+import '../Styles/UserLogin.css'
 
 const UserLogin = () => {
 
@@ -11,11 +11,11 @@ const UserLogin = () => {
 
     return ( 
         <div className="user-admin-login">
-            <img src="./Images/coverPage.png" alt="" />
-            <div className="form">
+            
+            <div className="user-form">
                 <h1>User Login</h1>
 
-                <div className="form-input">
+                <div className="user-form-input">
 
                     <form onSubmit={Login}>
                         <div className="email">

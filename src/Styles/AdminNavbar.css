@@ -8,14 +8,16 @@
     justify-content: space-between;
     align-items: center;
     padding:8px 65px;
-    background-color:#e7eaf6 ;
+    background-color:black;
+    color:white;
 }
 .admin-links a{
     padding:10px 20px;
     text-decoration: none;
-    color:black;
-    border-radius: 4px;
+    color:white;
+    font-weight: bolder;
+    transition: all 0.5s;
 }
 .admin-links a:hover{
-    background-color:#fafafa ;
+    color:greenyellow ;
 }

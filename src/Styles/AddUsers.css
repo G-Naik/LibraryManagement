@@ -1,11 +1,39 @@
-.adduser{
-    width:450px;
-    height: 700px;
-    background-color: orangered;
-    margin-left:450px ;
-    margin-top: 20px;
-    border-radius: 20px;
+.add-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
 }
-form input{
-    margin: 10px;
+.add-user-form{
+    width:500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.add-user-form h1{
+    text-align: center;
+    padding:10px 0px;
+}
+.add-user-form p{
+    padding: 0px 10px;
+}
+.add-user-form-input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+.add-user-form-input input{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin:10px 0px;
+    padding:0px 10px;
+}
+.add-user-form-input button{
+    margin: 20px 0px;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    color:white;
+    background-color: blue;
+    border-radius: 10px;
 }
